@@ -1,0 +1,22 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    background-image: url("../images/bananas/bananas.png");
+}
+
+header {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#intro {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+span {
+    font-weight: 700;
+}
