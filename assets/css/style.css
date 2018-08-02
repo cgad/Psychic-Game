@@ -7,6 +7,7 @@ body {
     background-image: url("../images/bananas/bananas.png");
     width: 450px;
     margin: 20px auto;
+    border: solid 5px #ffcc02;
 }
 
 header {
@@ -19,7 +20,8 @@ header {
 #intro {
     font-size: 24px;
     font-weight: 700;
-    /* background-color: lightyellow; */
+    background-color: #ffcc02;
+    color: white;
 }
 
 span {
