@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>  
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/> 
@@ -10,19 +12,22 @@
 </head>
 
 <body>
-    <script src="assets/javascript/game.js"></script>
 
     <header>The Psychic Game</header>
 
-    <p id="intro">Guess what letter I'm thinking of!</p>
+    <p class="intro">Guess what letter I'm thinking of!</p>
 
-    <p id="counters">Wins: <span id="wins"></span></p>
+    <p id="counters">Wins: <span id="wins">0</span></p>
 
-    <p id="counters">Losses: <span id="losses"></span></p>
+    <p id="counters">Losses: <span id="losses">0</span></p>
 
-    <p id="counters">Guesses left: <span id="guesses-left"></span></p>
+    <p id="counters">Guesses left: <span id="guesses-left">9</span></p>
 
     <p id="counters">Your guesses so far: <span id="guesses-so-far"></span></p>
+
+    <p id="credit"><a href='https://www.freepik.com/free-vector/sign-language-alphabet-in-hand-drawn-style_2629254.htm'>Background Designed by Freepik</a></p>
+
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 

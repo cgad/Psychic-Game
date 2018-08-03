@@ -28,5 +28,5 @@ document.onkeyup = function(event) {
     document.getElementById("wins").textContent = wins;
     document.getElementById("losses").textContent = losses;
     document.getElementById("guesses-left").textContent = guessesLeft;
-    document.getElementById("guesses-so-far").textContent = guessesSoFar;
+    document.getElementById("guesses-so-far").textContent = guessesSoFar.join(" ");
 }
